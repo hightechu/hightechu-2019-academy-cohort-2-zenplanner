@@ -1,0 +1,41 @@
+# This file helps with this application https://probot.github.io/apps/settings/
+# Settings for assignments created with GitHub Classroom
+
+# Repository: define the repository settings
+repository:
+  # See https://developer.github.com/v3/repos/#edit for all available settings.
+
+  # A short description of the repository.
+  description: HighTechU Academy Group Project. For support, visit hightechuacademy.slack.com.
+  
+  # A URL with more information about the repository
+  homepage: https://www.hightechu.ca/
+
+  # Either `true` to make the repository private, or `false` to make it public.
+  private: true
+
+  # Either `true` to enable issues for this repository, `false` to disable them.
+  has_issues: true
+  
+  # Either `true` to enable projects for this repository, `false` to disable them.
+  has_projects: true
+
+  # Either `true` to enable the wiki for this repository, `false` to disable it.
+  has_wiki: false
+  
+  # Updates the default branch for this repository.
+  default_branch: master
+
+  # Either `true` to allow squash-merging pull requests, or `false` to prevent squash-merging.
+  allow_squash_merge: true
+
+  # Either `true` to allow merging pull requests with a merge commit, or `false` to prevent merging pull requests with merge commits.
+  allow_merge_commit: true
+
+  # Either `true` to allow rebase-merging pull requests, or `false` to prevent rebase-merging.
+  allow_rebase_merge: true
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: help
+    color: fbca04
