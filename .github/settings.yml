@@ -6,7 +6,7 @@ repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
 
   # A short description of the repository.
-  description: HighTechU Academy Group Project. For support, visit hightechuacademy.slack.com.
+  description: HighTechU Academy Group Project. For support, visit https://hightechuacademy.slack.com.
   
   # A URL with more information about the repository
   homepage: https://www.hightechu.ca/

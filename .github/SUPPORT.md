@@ -1,0 +1,1 @@
+For support, visit https://hightechuacademy.slack.com or email Andrew at :email: <hightechu@csc.uvic.ca>
