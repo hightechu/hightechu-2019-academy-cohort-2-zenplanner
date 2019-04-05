@@ -7,9 +7,6 @@ repository:
 
   # A short description of the repository.
   description: HighTechU Academy Group Project. For support, visit https://hightechuacademy.slack.com.
-  
-  # A URL with more information about the repository
-  homepage: https://www.hightechu.ca/
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: true
