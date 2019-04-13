@@ -2,7 +2,7 @@
 
 HighTechU Group Project
 
-## [Zen Planner: Let's Save This Bread]
+## Zen Planner: Let's Save This Bread
 
 ### Mini Pitch :ghost:
 
@@ -15,17 +15,23 @@ Teenagers are terrible spenders and cannot find ways to save their money. Our ap
 
 ### User Stories :snowboarder:
 
-[DELETE ME - ADD YOUR USER STORIES HERE]
-
-* EXAMPLE - I want my users to be able to see a default page on my website.
-* EXAMPLE - I want my users to be able to login to my website.
+1. Expenses
+2. Dashboard
+3. Welcome page
+4. Questionnaire
+5. Tutorials
+6. Blog
+7. Preferences
 
 ### Website Pages :speedboat:
 
-[DELETE ME - ADD YOUR WEBSITE PAGES HERE]
-
-* EXAMPLE - Landing Page -> `index.html`
-* EXAMPLE - Login Page -> `login.html`
+1. Expenses
+2. Dashboard
+3. Welcome page
+4. Questionnaire
+5. Tutorials
+6. Blog
+7. Preferences
 
 ## Resources :blue_book:
 
