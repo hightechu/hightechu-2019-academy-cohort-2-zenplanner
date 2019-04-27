@@ -1,0 +1,33 @@
+body {
+    margin: 0em;
+    padding: 0em;
+}
+
+#menu-bar {
+    background-color: grey;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 4.5em;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#menu-bar div h1, 
+#menu-bar div h4 {
+    margin: 0em;
+}
+#center {
+    grid-column-start: 2;
+    text-align: center;
+}
+
+#right {
+   grid-column-start: 3;
+   text-align: right;
+}
+
+#text {
+    width: 50%;
+    padding: 1em;
+}
