@@ -17,6 +17,16 @@ body {
 #menu-bar div h4 {
     margin: 0em;
 }
+
+#left {
+    grid-column-start: 1;
+    text-align: left;
+}
+
+#left img {
+    width: 5em;
+}
+
 #center {
     grid-column-start: 2;
     text-align: center;
@@ -25,6 +35,10 @@ body {
 #right {
    grid-column-start: 3;
    text-align: right;
+}
+
+#right p {
+    margin: 0.25em;
 }
 
 #text {
