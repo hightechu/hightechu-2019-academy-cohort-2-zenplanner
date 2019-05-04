@@ -26,7 +26,8 @@ error_log
 Network Trash Folder
 Temporary Items
 .apdisk
-
+./loopback/node_modules/*
+./loopback/teamthrees/node_modules/*
 # WINDOWS
 # Windows thumbnail cache files
 Thumbs.db
