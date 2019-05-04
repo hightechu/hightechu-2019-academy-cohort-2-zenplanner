@@ -4,20 +4,107 @@
     <!-- ADD AUTHOR -->
     <meta name="author" content="">
     <!-- ADD CSS FILES HERE -->
-    <link rel="stylesheet" href="css/Dashboard.css">
-    <src  
+    <link rel="stylesheet" href="css/Dashboard.css">  
     <!-- ADD FAVICON -->
     <!-- Learn more about favicons here: https://en.wikipedia.org/wiki/Favicon -->
  </head>
   
   <body>
-    <h1>ZENBOARD</h1>
+      <div id="Logo">
+      <img src="Logo.jpg" alt="ZenLogo"> 
+        <h1>Welcome to ZENBOARD </h1>
+            <div id="object" class="slideUp"></div>
+`     </div>
+        <div id="Goal" align="right"> 
+    <h3>Goal This Month</h3> 
+    </div>
+    
+    
     <h2>
-        Here is your progress 
+        Here is your progress this month
     </h2>
 
 
  
     <h2>Statistics</h2> 
  
-    <h3>Goal This Month</h3>
+    
+
+    
+
+    <script>
+            window.onload = function () {
+            
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                theme: "light2",
+                title:{
+                    text: "Simple Line Chart"
+                },
+                axisY:{
+                    includeZero: false
+                },
+                data: [{        
+                    type: "line",       
+                    dataPoints: [
+                        { y: 450 },
+                        { y: 414},
+                        { y: 520, indexLabel: "highest",markerColor: "red", markerType: "triangle" },
+                        { y: 460 },
+                        { y: 450 },
+                        { y: 500 },
+                        { y: 480 },
+                        { y: 480 },
+                        { y: 410 , indexLabel: "lowest",markerColor: "DarkSlateGrey", markerType: "cross" },
+                        { y: 500 },
+                        { y: 480 },
+                        { y: 510 }
+                    ]
+                }]
+            });
+            chart.render();
+            
+            }
+            </script>
+            </head>
+            <body>
+            <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<h4> 
+    aaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa 
+    aaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+    aaaaaaaaaaaaaaaaaa
+
+</h4>
+
+</body> 

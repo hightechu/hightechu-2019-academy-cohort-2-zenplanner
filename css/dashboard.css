@@ -1,9 +1,15 @@
+@font-face {
+    font-family: new york;
+    src:url("New York Line.otf");
+}
+
+
 h1{
     text-align: center;
     font-size:3.0em;
-    background-color: darkslategrey;
+    
     color:whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 } 
 
 
@@ -12,29 +18,130 @@ h2{
     font-size:2.0em;
     background-color: darkslategray; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 1s;
+    text-align:center;
 } 
 
-p{ 
-    text-align: center;
-    text-decoration: silver;
-}
- 
-body{ 
-        margin-top: 20px;
-		margin-right: 40px;
-		margin-bottom: 10px;
-		margin-left: 70px;
-}
-
-h3{ 
+h2:hover{
+         color:skyblue;
+    } 
+#Goal{ 
     text-align: left;
     background-color:skyblue;
     color:whitesmoke;
-    font-size:1.5em;
-    position: absolute;
-    top: 50px;
-    right: 40px;    
-    margin-left: 70px; 
-    margin-bottom:10px;
+    font-size:1.5em;   
     width: 500px;
+    font-family: new york;
+    position:sticky;
+    top:0px;
+    float: right;
 }
+
+
+#Logo{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: darkslategrey;
+}
+
+img{
+    width:10%;
+
+}
+p{ 
+    text-align: center;
+    text-decoration: silver;
+} 
+
+h4{
+    font-size:5000%;
+}
+
+
+
+.slideExpandUp{
+	animation-name: slideExpandUp;
+	-webkit-animation-name: slideExpandUp;	
+
+	animation-duration: 1.6s;	
+	-webkit-animation-duration: 1.6s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease -out;
+
+	visibility: visible !important;	
+}
+
+@keyframes slideExpandUp {
+	0% {
+		transform: translateY(100%) scaleX(0.5);
+	}
+	30%{
+		transform: translateY(-8%) scaleX(0.5);
+	}	
+	40%{
+		transform: translateY(2%) scaleX(0.5);
+	}
+	50%{
+		transform: translateY(0%) scaleX(1.1);
+	}
+	60%{
+		transform: translateY(0%) scaleX(0.9);		
+	}
+	70% {
+		transform: translateY(0%) scaleX(1.05);
+	}			
+	80%{
+		transform: translateY(0%) scaleX(0.95);		
+	}
+	90% {
+		transform: translateY(0%) scaleX(1.02);
+	}	
+	100%{
+		transform: translateY(0%) scaleX(1);		
+	}
+}
+
+@-webkit-keyframes slideExpandUp {
+	0% {
+		-webkit-transform: translateY(100%) scaleX(0.5);
+	}
+	30%{
+		-webkit-transform: translateY(-8%) scaleX(0.5);
+	}	
+	40%{
+		-webkit-transform: translateY(2%) scaleX(0.5);
+	}
+	50%{
+		-webkit-transform: translateY(0%) scaleX(1.1);
+	}
+	60%{
+		-webkit-transform: translateY(0%) scaleX(0.9);		
+	}
+	70% {
+		-webkit-transform: translateY(0%) scaleX(1.05);
+	}			
+	80%{
+		-webkit-transform: translateY(0%) scaleX(0.95);		
+	}
+	90% {
+		-webkit-transform: translateY(0%) scaleX(1.02);
+	}	
+	100%{
+		-webkit-transform: translateY(0%) scaleX(1);		
+	}
+}
+#object{
+	background-color: #fe5652;
+
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
