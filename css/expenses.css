@@ -1,3 +1,13 @@
-body {background-color: gray }
-a {color:gold;}
-p {color:blue;}
+body {background-image:url("http://anatomyzone.com/wp-content/uploads/2014/01/skin3.general-boxed-bg-image.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover; }
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image:url("../img/skin3.general-boxed-bg-image.jpg");
+    text-align: center;}
+a {color:black;}
+p {color: whitesmoke;}
