@@ -2,6 +2,12 @@ body {
     margin: 0em;
     padding: 0em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e3e3e8;
+}
+
+hr {
+    width: 95%;
+    color: black;
 }
 
 #main {
@@ -10,9 +16,9 @@ body {
 }
 
 .button {
-    background-color: #9494b8;
+    background-color: #797992;
     border: 1px solid black;
-    border-radius: 5%;
+    border-radius: 3px;
     color: black;
     padding: 2px 15px;
     text-align: center;
@@ -25,12 +31,12 @@ body {
 }
 
 .button:hover {
-    background-color: #47476b;
-    color: white;
+    background-color: #6A6ABF;
+    color: #BFBFBF;
 }
 
 #menu-bar {
-    background-color: #9494b8;
+    background-color: #72728D;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -77,9 +83,6 @@ body {
 
 #screenshot {
     text-align: center;
-}
-
-#screenshot {
     padding: 0.5em;
 }
 
