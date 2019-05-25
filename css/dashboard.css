@@ -29,7 +29,7 @@ h2:hover{
     text-align: left;
     background-color:skyblue;
     color:whitesmoke;
-    font-size:1.5em;   
+    font-size:1.2em;   
     width: 500px;
     font-family: new york;
     position:sticky;
@@ -41,11 +41,15 @@ h2:hover{
 #Logo{
     display:grid;
     grid-template-columns: 1fr 2fr 1fr;
-    background-color: darkslategrey;
+	background-color: darkslategrey;
+}
+
+#Title{
+	visibility: hidden;
 }
 
 img{
-    width:10%;
+    width:40%;
 
 }
 p{ 
@@ -53,18 +57,14 @@ p{
     text-decoration: silver;
 } 
 
-h4{
-    font-size:5000%;
-}
-
 
 
 .slideExpandUp{
 	animation-name: slideExpandUp;
 	-webkit-animation-name: slideExpandUp;	
 
-	animation-duration: 1.6s;	
-	-webkit-animation-duration: 1.6s;
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
 
 	animation-timing-function: ease-out;	
 	-webkit-animation-timing-function: ease -out;
@@ -130,11 +130,7 @@ h4{
 	100%{
 		-webkit-transform: translateY(0%) scaleX(1);		
 	}
-}
-#object{
-	background-color: #fe5652;
-
-	visibility: hidden;
+	
 }
 
 
