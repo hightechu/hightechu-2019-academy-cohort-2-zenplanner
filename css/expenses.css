@@ -1,13 +1,44 @@
-body {background-image:url("http://anatomyzone.com/wp-content/uploads/2014/01/skin3.general-boxed-bg-image.jpg");
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover; }
+body{
+    background-color: white;
+    padding: 0em;
+    margin: 0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu-bar {
+    background-color:#2B3339;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 4.5em;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#menu-bar div h1, 
+#menu-bar div h4 {
+    margin: 0em;
+}
+#left {
+    grid-column-start: 1;
+    text-align: left;
+}
+
+#left img {
+    width: 5em;
+}
+
+#center {
+    grid-column-start: 2;
+    text-align: center;
+}
+
 .footer {
-    position:fixed;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-image:url("../img/skin3.general-boxed-bg-image.jpg");
-    text-align: center;}
-a {color:black;}
-p {color: whitesmoke;}
+    background-color: #2B3339 
+     center;}
