@@ -1,0 +1,5 @@
+[
+    {"title":"Income","subtitle":"CAD$, in thousands","ranges":[150,225,300],"measures":[220,270],"markers":[250]},
+    {"title":"Outcome","subtitle":"US$, average","ranges":[350,500,600],"measures":[100,320],"markers":[550]},
+    {"title":"Profit","subtitle":"%","ranges":[20,25,30],"measures":[21,23],"markers":[26]}
+]
