@@ -21,15 +21,36 @@
    <body>
       <!-- ADD CONTENT HERE -->
       <div id="menu-bar">
-         <div id="left">
-            <img src="img/logo.png">
-         </div>
-         <div id="center">
+
+        <div id="left" class="container" onclick="showMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+
+        <div id="center">
             <h1>Zen Planner</h1>
             <h4>Let's save this bread</h4>
-         </div>
-      </div>
-      <hr>
+        </div>
+
+        <div id="right">
+            <button class="button">Sign-Up</button>
+            <p>or</p>
+            <button class="button">Sign-In</button>
+        </div>
+
+        <div id="popout">
+            <div id="spc"></div>
+            <a class="button" href="dashboard.html">Dashboard</a>
+            <a class="button" href="Expenses.html">Expenses</a>
+            <a class="button" href="questionnaire.html">Questionnaire</a>
+            <a class="button" href="test.html">Test</a>
+            <abutton class="button">--five--</a>
+        </div>
+
+    </div>
+
+    <hr>
       <div id="all">
          <h1>
             <font size= 6px;><u>Questionnaire</u></font>
@@ -90,5 +111,6 @@ Enter amount here
       <!-- ADD JS FILES HERE -->
       <script src="js/helper.js"></script>
       <script src="js/questionnaire.js"></script>
+      <script src="js/welcome.js"></script>
    </body>
 </html>
