@@ -1,0 +1,27 @@
+{
+  "name": "expense",
+  "plural": "expenses",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "transportation": {
+      "type": "number",
+      "default": 0
+    },
+    "entertainment": {
+      "type": "number",
+      "default": 0
+    },
+    "nutrition": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
