@@ -12,7 +12,7 @@ function showMenu(x) {
     //createExpense();
 }
 
-function createExpense(){
+/*function createExpense(){
     fn = function(response, status) {
         if('error' in response) {
             alert("{0}: {1}".format(status, response.error.message));
@@ -43,4 +43,4 @@ function createExpense(){
 
     APIajax("expenses", "POST", fn, jsonObj);
     APIajax("expenses", "GET", fnget);
-}
+}*/

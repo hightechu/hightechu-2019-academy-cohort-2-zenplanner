@@ -9,8 +9,8 @@ test = function() {
                 tra = response[expense].transportation;
                 ent = response[expense].entertainment;
                 nut = response[expense].nutrition;
-                h.innerHTML = nut;
             }
+            h.innerHTML = nut;
         }
     }
     APIajax("expenses", "GET", fnget);
