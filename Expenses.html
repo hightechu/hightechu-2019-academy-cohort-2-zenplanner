@@ -11,7 +11,7 @@
     <!-- ADD TITLE -->
     <title>Expenses</title>
     <!-- ADD DESCRIPTION -->
-    <meta name="description" content="">
+    <meta name="description" content="A financial planner for people entering post-secondary schooling">
     <!-- ADD AUTHOR -->
     <meta name="author" content="">
     <!-- ADD CSS FILES HERE -->
@@ -21,10 +21,10 @@
     <!-- Learn more about favicons here: https://en.wikipedia.org/wiki/Favicon -->
   </head>
   <!-- BODY -->
- <body> 
+<body>
     <div id="menu-bar">
         <div id="left">
-           <img src="img/logo.png">
+           <img src="">
         </div>
         <div id="center">
            <h1>Zen Planner</h1>
@@ -32,23 +32,24 @@
         </div>
      </div>
      <hr>
-    <center><h1>EXPENSES</h1></center>
+     <div id="all">
+
+      <center><h1>EXPENSES</h1></center><br><br><br>
+
       <center><h3>TRANSPORTATION</h3>
-      <form>
-        <strong>- How much?</strong>  <input type="number" name="How much?" value=""><br><br>
-</center>
-      <center><h3>ENTERTAINMENT</h3>
-      <form>
-        <strong>- Hom much?</strong>  <input type="number" name="How much?" value=""><br><br>
-</center>
-      <center><h3>NUTRITION</h3>
-      <form>
-        <strong>- How much?</strong>  <input type="number" name="How much?" value=""><br><br>
-</center>
-      </form><br>
       
-      <center><button>Others</button></center><br>
-      <center><input type="submit" value="Submit"></center>
+        <strong>- How much?</strong> <input id="transportation" type="number"name="How much?"><br><br></center>
+
+      <center><h3>ENTERTAINMENT</h3>
+      
+        <strong>- Hom much?</strong> <input id="entertainment" type="number" name="How much?"><br><br></center>
+
+      <center><h3>NUTRITION</h3>
+      
+        <strong>- How much?</strong> <input id="nutrition" type="number" name="How much?"><br><br></center><br>
+
+      <center><input class="button" type="submit" value="SUBMIT" onclick="addExpense()"></center>
+
       <div class="footer">
         <a>Footer</a>
 
@@ -61,6 +62,6 @@
       </div>
       <!-- JAVASCRIPT SCRIPT -->
       <!-- ADD JS FILES HERE -->
-      <script src="js/"></script>
+      <script src="js/expenses.js"></script>
   </body>
 </html>
