@@ -16,22 +16,44 @@
     <meta name="author" content="">
     <!-- ADD CSS FILES HERE -->
     <link rel="stylesheet" href="css/expenses.css">
+    <link rel="stylesheet" href="css/welcome.css">
 
     <!-- ADD FAVICON -->
     <!-- Learn more about favicons here: https://en.wikipedia.org/wiki/Favicon -->
   </head>
   <!-- BODY -->
 <body>
-    <div id="menu-bar">
-        <div id="left">
-           <img src="">
-        </div>
-        <div id="center">
-           <h1>Zen Planner</h1>
-           <h4>Let's save this bread</h4>
-        </div>
-     </div>
-     <hr>
+  <div id="menu-bar">
+
+    <div id="left" class="container" onclick="showMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+    <div id="center">
+        <h1>Zen Planner</h1>
+        <h4>Let's save this bread</h4>
+    </div>
+
+    <div id="right">
+        <button class="button">Sign-Up</button>
+        <p>or</p>
+        <button class="button">Sign-In</button>
+    </div>
+
+    <div id="popout">
+        <div id="spc"></div>
+        <a class="button" href="index.html">Home</a>
+        <a class="button" href="Expenses.html">Expenses</a>
+        <a class="button" href="test.html">--three--</a>
+        <a class="button">--four--</a>
+        <abutton class="button">--five--</a>
+    </div>
+
+</div>
+
+<hr>
      <div id="all">
 
       <center><h1>EXPENSES</h1></center><br><br><br>
@@ -48,7 +70,7 @@
       
         <strong>- How much?</strong> <input id="nutrition" type="number" name="How much?"><br><br></center><br>
 
-      <center><input class="button" type="submit" value="SUBMIT" onclick="updateExpense()"></center>
+      <center><input class="button2" type="submit" value="SUBMIT" onclick="updateExpense()"></center>
 
       <div class="footer">
         <a>Footer</a>
@@ -64,5 +86,6 @@
       <!-- ADD JS FILES HERE -->
       <script src="js/helper.js"></script>
       <script src="js/expenses.js"></script>
+      <script src="js/welcome.js"></script>
   </body>
 </html>
