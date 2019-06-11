@@ -1,0 +1,116 @@
+<!-- TELLS THE BROSWER -->
+<!doctype html>
+<!-- ENGLISH -->
+<html lang="en">
+   <!-- HEAD -->
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- ADD TITLE -->
+      <title></title>
+      <!-- ADD DESCRIPTION -->
+      <meta name="description" content="">
+      <!-- ADD AUTHOR -->
+      <meta name="author" content="">
+      <!-- ADD CSS FILES HERE -->
+      <link rel="stylesheet" href="css/questionnaire.css">
+      <!-- ADD FAVICON -->
+      <!-- Learn more about favicons here: https://en.wikipedia.org/wiki/Favicon -->
+   </head>
+   <!-- BODY -->
+   <body>
+      <!-- ADD CONTENT HERE -->
+      <div id="menu-bar">
+
+        <div id="left" class="container" onclick="showMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+
+        <div id="center">
+            <h1>Zen Planner</h1>
+            <h4>Let's save this bread</h4>
+        </div>
+
+        <div id="right">
+            <button class="button">Sign-Up</button>
+            <p>or</p>
+            <button class="button">Sign-In</button>
+        </div>
+
+        <div id="popout">
+            <div id="spc"></div>
+            <a class="button" href="dashboard.html">Dashboard</a>
+            <a class="button" href="expenses.html">Expenses</a>
+            <a class="button" href="questionnaire.html">Questionnaire</a>
+            <a class="button" href="test.html">Test</a>
+            <abutton class="button">--five--</a>
+        </div>
+
+    </div>
+
+    <hr>
+      <div id="all">
+         <h1>
+            <font size= 6px;><u>Questionnaire</u></font>
+         </h1>
+         <br>
+         <br>
+         <br>
+         <element id="question1">
+            <div class="question-titles">
+               1. How much do you make per month?
+            </div>
+            <br>
+            <br>
+            <textarea id="transportation" class="smalltextbox">
+Enter amount here
+    </textarea>
+         </element>
+         <br>
+         <br>
+         <br>
+         <element id="question2">
+            <div class="question-titles">
+               2. How much do you spend per month?
+            </div>
+            <br>
+            <br>
+            <textarea id="entertainment" class="smalltextbox">
+Enter amount here
+    </textarea>
+         </element>
+         <br>
+         <br>
+         <br>
+         <element id="question3">
+            <div class="question-titles">
+               3. What do you spend your money on the most?
+            </div>
+            <br>
+            <br>
+            <input type="checkbox">Electronics and Gadgets<br>
+            <input type="checkbox">Clothing and accessories<br>
+            <input type="checkbox">Bathroom and toiletries<br>
+            <input type="checkbox">Kitchen and Cooking<br>
+            <input type="checkbox">Schooling<br>
+            Other
+            <br>
+            <textarea id="nutrition" placeholder="Enter other here" class="bigtextbox">
+
+    </textarea>
+         </element>
+         <br>
+         <br>
+         <h2>
+            <input class="button" type="button" value="submit" onclick="createExpense()"> 
+         </h2>
+      </div>
+      <!-- JAVASCRIPT SCRIPT -->
+      <!-- ADD JS FILES HERE -->
+      <script src="js/helper.js"></script>
+      <script src="js/questionnaire.js"></script>
+      <script src="js/welcome.js"></script>
+   </body>
+</html>

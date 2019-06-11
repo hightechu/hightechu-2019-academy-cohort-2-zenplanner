@@ -1,3 +1,6 @@
+# Node stuff
+node_modules
+
 # MAC OSX
 # General
 .DS_Store
@@ -26,8 +29,7 @@ error_log
 Network Trash Folder
 Temporary Items
 .apdisk
-/loopback/node_modules/*
-./loopback/teamthrees/node_modules/*
+
 # WINDOWS
 # Windows thumbnail cache files
 Thumbs.db
@@ -55,7 +57,7 @@ $RECYCLE.BIN/
 
 # VS CODE
 .vscode/*
-.vscode/settings.json
+!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
