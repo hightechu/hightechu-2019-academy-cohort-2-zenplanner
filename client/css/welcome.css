@@ -10,6 +10,10 @@ hr {
     color: black;
 }
 
+img {
+    width: 15%;
+}
+
 #main {
     text-align: center;
 }
