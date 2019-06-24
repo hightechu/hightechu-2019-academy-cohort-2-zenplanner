@@ -29,7 +29,7 @@
 
     <div id="menu-bar">
 
-        <div id="left" class="container" onclick="showMenu(this)">
+        <div id="left" class="container" onclick="showMenu('#popout')">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
@@ -41,18 +41,18 @@
         </div>
 
         <div id="right">
-            <button class="button">Sign-Up</button>
+            <button class="button" onclick="window.location.href = 'questionnaire.html'">Sign-Up</button>
             <p>or</p>
-            <button class="button">Sign-In</button>
+            <button class="button" onclick="window.location.href = 'questionnaire.html'">Sign-In</button>
         </div>
 
         <div id="popout">
             <div id="spc"></div>
+            <a class="button" href="index.html">Welcome</a>
             <a class="button" href="dashboard.html">Dashboard</a>
             <a class="button" href="expenses.html">Expenses</a>
             <a class="button" href="questionnaire.html">Questionnaire</a>
-            <a class="button" href="test.html">Test</a>
-            <abutton class="button">--five--</a>
+            <abutton class="button" href="test.html">Test</a>
         </div>
 
     </div>
@@ -69,13 +69,15 @@
             </p>
             <hr>
             <p>
-                New to Zen Planner? Sign-Up <a href="/">here</a>.
+                New to Zen Planner? Sign-Up <a href="questionnaire.html">here</a>.
             </p>
         </div>
 
+        <!--
         <div id="screenshot">
             <img src="img/placeholder.png">
         </div>
+        -->
 
     </div>
 

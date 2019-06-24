@@ -10,6 +10,9 @@ function createExpense(){
     }
 
     var jsonObj = new Object();
+    jsonObj.income = document.getElementById('income').value;
+    console.log(document.getElementById('income').value);
+    
     jsonObj.transportation = document.getElementById('transportation').value;
     jsonObj.entertainment = document.getElementById('entertainment').value;
     jsonObj.nutrition = document.getElementById('nutrition').value;

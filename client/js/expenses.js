@@ -15,6 +15,6 @@ function updateExpense(){
     jsonObj.nutrition = document.getElementById('nutrition').value;
     jsonObj.id = 1;
 
-    APIajax("expenses", "PUT", fn, jsonObj);
+    APIajax("data", "PUT", fn, jsonObj);
     //APIajax("expenses", "GET", fnget);
 }
