@@ -9,5 +9,30 @@
 }
 
 input {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    border-color: #5577E3;
+    background: none;
+    text-align: center;
+    height: 1.5rem;
+    width: 15rem;
+    outline: none;
+    transition: .5s;
+}
+input:hover {
+    border-color: #5577E3;
+    border-color: #55E368;
+    width: 20rem;
+    border-radius: 24px;
+}
+
+#submit {
+    margin-bottom: 2em;
+    border-radius: 24px;
+    border-color: #55E368;
+    background: none;
+    text-align: center;
+    height: 1.5rem;
+    width: 15rem;
+    outline: none;
 }
