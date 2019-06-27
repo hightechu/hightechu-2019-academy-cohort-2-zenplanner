@@ -1,4 +1,8 @@
-<title>ZENBOARD</title>
+<!doctype html>
+<html lang="en">
+
+<head>    
+    <title>ZENBOARD</title>
     <!-- ADD DESCRIPTION -->
     <meta name="description" content="">
     <!-- ADD AUTHOR -->
@@ -7,142 +11,48 @@
     <link rel="stylesheet" href="css/dashboard.css">  
     <!-- ADD FAVICON -->
     <link rel="shortcut icon" href="img/logoFav.png">
- </head>
+</head>
   
 <body>
-    <div id="Logo">
-      <img src="img/logo.png" alt="ZenLogoLeft"> 
-    <div id="Title" class="slideExpandUp">
-        <h1>Welcome To Your ZENBOARD</h1>
-     </div>
-     <div id="right">
-        <button class="button">Sign-Up</button>
-        <p>or</p>
-        <button class="button">Sign-In</button>
+
+    <div id="menu-bar">
+
+        <div id="left" class="container" onclick="showMenu('#popout')">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+
+        <div id="center">
+            <h1>Zen Planner</h1>
+            <h4>Let's save this bread</h4>
+        </div>
+
+        <div id="right">
+            <button class="button" onclick="window.location.href = 'questionnaire.html'">Sign-Up</button>
+            <p>or</p>
+            <button class="button" onclick="window.location.href = 'questionnaire.html'">Sign-In</button>
+        </div>
+
+        <div id="popout">
+            <div id="spc"></div>
+            <a class="button" href="index.html">Welcome</a>
+            <a class="button" href="dashboard.html">Dashboard</a>
+            <a class="button" href="expenses.html">Expenses</a>
+            <a class="button" href="questionnaire.html">Questionnaire</a>
+        </div>
+
     </div>
-    </div>
-
-<div class="Navbar">
-
-
-</div>
-    
  
-    <h2>
+    <h2 style="text-align: center;">
         Here Is Your Progress This Year
     </h2>
 
-    <script>
-            window.onload = function () {
-            
-            var chart = new CanvasJS.Chart("chartContainer", {
-                animationEnabled: true,
-                title:{
-                    text: "Progress"
-                },
-                axisX: {
-                    valueFormatString: "DD MMM,YY"
-                },
-                axisY: {
-                    title: "Finance(in CAD)",
-                    includeZero: false,
-                    suffix: "$"
-                },
-                legend:{
-                    cursor: "pointer",
-                    fontSize: 16,
-                    itemclick: toggleDataSeries
-                },
-                toolTip:{
-                    shared: true
-                },
-                data: [{
-                    name: "Spend",
-                    type: "spline",
-                    yValueFormatString: "#0.## $",
-                    showInLegend: true,
-                    dataPoints: [
-                        { x: new Date(2019,1,1), y: 5 },
-                        { x: new Date(2019,2,1), y: 6 },
-                        { x: new Date(2019,3,1), y: 11 },
-                        { x: new Date(2019,4,1), y: 7},
-                        { x: new Date(2019,5,1), y: 3 },
-                        { x: new Date(2019,6,1), y: 4 },
-                        { x: new Date(2019,7,1), y: 91 },
-                        { x: new Date(2019,8,1), y: 23 },
-                        { x: new Date(2019,10,1), y: 51 },
-                        { x: new Date(2019,11,1), y: 3 },
-                        { x: new Date(2019,12,1), y: 1 }
-                    ]
-                },
-                {
-                    name: "Saved",
-                    type: "spline",
-                    yValueFormatString: "#0.## $",
-                    showInLegend: true,
-                    dataPoints: [
-                    { x: new Date(2019,1,1), y: 31 },
-                        { x: new Date(2019,2,1), y: 31 },
-                        { x: new Date(2019,3,1), y: 29 },
-                        { x: new Date(2019,4,1), y: 29 },
-                        { x: new Date(2019,5,1), y: 31 },
-                        { x: new Date(2019,6,1), y: 30 },
-                        { x: new Date(2019,7,1), y: 31 },
-                        { x: new Date(2019,8,1), y: 29 },
-                        { x: new Date(2019,9,1), y: 29 },
-                        { x: new Date(2019,10,1), y: 31 },
-                        { x: new Date(2019,11,1), y: 30 },
-                        { x: new Date(2019,12,1), y: 29 }
-                    ]
-                },
-                {
-                    name: "Income",
-                    type: "spline",
-                    yValueFormatString: "#0.## $",
-                    showInLegend: true,
-                    dataPoints: [
-                    { x: new Date(2019,1,1), y: 500 },
-                        { x: new Date(2019,2,1), y: 500 },
-                        { x: new Date(2019,3,1), y: 500 },
-                        { x: new Date(2019,4,1), y: 500},
-                        { x: new Date(2019,5,1), y: 500 },
-                        { x: new Date(2019,6,1), y: 500 },
-                        { x: new Date(2019,7,1), y: 500},
-                        { x: new Date(2019,8,1), y: 500 },
-                        { x: new Date(2019,9,1), y: 500},
-                        { x: new Date(2019,10,1), y: 500},
-                        { x: new Date(2019,11,1), y: 500 },
-                        { x: new Date(2019,12,1), y: 500 }
-                    ]
-                }]
-            });
-            chart.render();
-            
-            function toggleDataSeries(e){
-                if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-                    e.dataSeries.visible = false;
-                }
-                else{
-                    e.dataSeries.visible = true;
-                }
-                chart.render();
-            }
-            
-            }
-            </script>
-            </head>
-            <body>
-            <div id="chartContainer" style="height: 370px; width: 100%;"></div>
-            <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-            </body>
+    <div id="chartContainer" style="height: 370px; width: 80%; margin-left: 10%"></div>
 
-<h2> 
-    You Saved:"$16000"
-</h2>
-
-
-
-
-
-
-</body> 
+    <script src="js/helper.js"></script>
+    <script src="js/welcome.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

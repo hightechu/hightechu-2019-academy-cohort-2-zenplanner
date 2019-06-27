@@ -15,17 +15,17 @@
     <!-- ADD AUTHOR -->
     <meta name="author" content="">
     <!-- ADD CSS FILES HERE -->
-    <link rel="stylesheet" href="css/expenses.css">
     <link rel="stylesheet" href="css/welcome.css">
+    <link rel="stylesheet" href="css/expenses.css">
 
     <!-- ADD FAVICON -->
     <!-- Learn more about favicons here: https://en.wikipedia.org/wiki/Favicon -->
   </head>
   <!-- BODY -->
-<body>
+<body onload="getExpense()">
   <div id="menu-bar">
 
-    <div id="left" class="container" onclick="showMenu(this)">
+    <div id="left" class="container" onclick="showMenu('#popout')">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
@@ -37,18 +37,17 @@
     </div>
 
     <div id="right">
-        <button class="button">Sign-Up</button>
+        <button class="button" onclick="window.location.href = 'questionnaire.html'">Sign-Up</button>
         <p>or</p>
-        <button class="button">Sign-In</button>
+        <button class="button" onclick="window.location.href = 'questionnaire.html'">Sign-In</button>
     </div>
 
     <div id="popout">
         <div id="spc"></div>
-        <a class="button" href="index.html">Home</a>
+        <a class="button" href="index.html">Welcome</a>
+        <a class="button" href="dashboard.html">Dashboard</a>
         <a class="button" href="expenses.html">Expenses</a>
-        <a class="button" href="test.html">--three--</a>
-        <a class="button">--four--</a>
-        <abutton class="button">--five--</a>
+        <a class="button" href="questionnaire.html">Questionnaire</a>
     </div>
 
 </div>
@@ -56,32 +55,27 @@
 <hr>
      <div id="all">
 
-      <center><h1>EXPENSES</h1></center><br><br><br>
+      <h2 id="header">Update your expenses</h2>
 
-      <center><h3>TRANSPORTATION</h3>
+      <h3>Income</h3>
+      <p id="i"></p>
+      <strong>- How much?</strong> <input id="income" type="number"name="How much?">
+
+      <h3>Nutrition</h3>
+      <p id="n"></p>
+      <strong>- Hom much?</strong> <input id="nutrition" type="number" name="How much?">
+
+      <h3>Entertainment</h3>
+      <p id="e"></p>
+      <strong>- How much?</strong> <input id="entertainment" type="number" name="How much?">
+
+      <h3>Transportation</h3>
+      <p id="t"></p>
+      <strong>- How much?</strong> <input id="transportation" type="number" name="How much?">
       
-        <strong>- How much?</strong> <input id="transportation" type="number"name="How much?"><br><br></center>
+      <br>
+      <input class="button2" type="submit" value="SUBMIT" onclick="updateExpense()">
 
-      <center><h3>ENTERTAINMENT</h3>
-      
-        <strong>- Hom much?</strong> <input id="entertainment" type="number" name="How much?"><br><br></center>
-
-      <center><h3>NUTRITION</h3>
-      
-        <strong>- How much?</strong> <input id="nutrition" type="number" name="How much?"><br><br></center><br>
-
-      <center><input class="button2" type="submit" value="SUBMIT" onclick="updateExpense()"></center>
-
-      <div class="footer">
-        <a>Footer</a>
-
-        
-
-
-
-
-
-      </div>
       <!-- JAVASCRIPT SCRIPT -->
       <!-- ADD JS FILES HERE -->
       <script src="js/helper.js"></script>

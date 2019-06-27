@@ -3,11 +3,12 @@ popout = document.querySelector('#popout');
 popout.style.display = 'none';
 
 function showMenu(x) {
+    x = document.querySelector(x);
     x.classList.toggle("change");
-    if (popout.style.display === "none") {
-        popout.style.display = "";
+    if (x.style.display === "none") {
+        x.style.display = "";
     } else {
-        popout.style.display = "none";
+        x.style.display = "none";
     }
     //createExpense();
 }

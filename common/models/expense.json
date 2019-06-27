@@ -7,15 +7,17 @@
     "validateUpsert": true
   },
   "properties": {
-    "transportation": {
+    "income": {
       "type": "number",
-      "default": 0
-    },
-    "entertainment": {
-      "type": "number",
+      "required": true,
       "default": 0
     },
     "nutrition": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "entertainment": {
       "type": "number",
       "default": 0
     }
