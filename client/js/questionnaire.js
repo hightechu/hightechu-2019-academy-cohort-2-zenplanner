@@ -14,7 +14,6 @@ function createExpense() {
     jsonObj.transportation = document.getElementById('transportation').value;
     jsonObj.entertainment = document.getElementById('entertainment').value;
     jsonObj.nutrition = document.getElementById('nutrition').value;
-    jsonObj.id = 1;
 
     APIajax("expenses", "POST", fn, jsonObj);
     //APIajax("expenses", "GET", fnget);
