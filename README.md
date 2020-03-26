@@ -4,7 +4,7 @@
 
 ## Website
 
-https://hightechu-cohort2-group-threes.herokuapp.com/
+https://zenplanner.herokuapp.com
 
 ## Mini Pitch
 
