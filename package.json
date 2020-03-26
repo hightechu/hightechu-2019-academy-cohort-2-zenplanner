@@ -1,9 +1,9 @@
 {
-  "name": "lb",
+  "name": "hightechu-group-project",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
-    "node": ">=6.x"
+    "node": ">=6"
   },
   "scripts": {
     "lint": "eslint .",
@@ -13,15 +13,10 @@
   "dependencies": {
     "compression": "^1.0.3",
     "cors": "^2.5.2",
-    "helmet": "^3.11.0",
-    "loopback": "^2.40.0",
+    "helmet": "^3.10.0",
+    "loopback": "^3.22.0",
     "loopback-boot": "^2.6.5",
-    "loopback-cli": "^5.0.2",
-    "loopback-component-explorer": "^5.4.0",
-    "loopback-datasource-juggler": "^2.39.0",
-    "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^2.0.0",
-    "swagger-ui": ">=3.18.0"
+    "serve-favicon": "^2.0.1"
   },
   "devDependencies": {
     "eslint": "^4.18.2",
@@ -31,6 +26,6 @@
     "type": "",
     "url": ""
   },
-  "license": "UNLICENSED",
-  "description": "lb"
+  "license": "MIT",
+  "description": "hightechu-group-project"
 }

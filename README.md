@@ -4,7 +4,7 @@
 
 ## Website
 
-https://hightechu-cohort2-group-threes.herokuapp.com/
+https://zenplanner.herokuapp.com
 
 ## Mini Pitch
 
@@ -26,13 +26,13 @@ Teenagers are terrible spenders and cannot find ways to save their money. Our ap
 
 ## Promo
 
-![Promo of Website](promo.png)
+![Promo of Website](img/promo.png)
 
-![Promo of Website](promo-1.png)
+![Promo of Website](img/promo-1.png)
 
-![Promo of Website](promo-2.png)
+![Promo of Website](img/promo-2.png)
 
-![Promo of Website](promo-3.png)
+![Promo of Website](img/promo-3.png)
 
 ## Made with:
 
