@@ -4,7 +4,7 @@
 
 ## Website
 
-https://zenplanner.herokuapp.com
+[Live Demo](https://zenplanner.herokuapp.com)
 
 ## Mini Pitch
 
